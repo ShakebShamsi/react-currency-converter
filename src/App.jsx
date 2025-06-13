@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import useCurrencyInfo from './hooks/useCurrencyInfo';
 import { InputBox } from "./components/index.js";
-import bgImage from './assets/img/background-2.png'; // adjust filename accordingly
+import bgImage from '/img/background.png';
 
 
 function App() {
