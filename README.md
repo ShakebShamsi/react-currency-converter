@@ -1,12 +1,69 @@
-# React + Vite
+# 💱 React Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and real-time **Currency Converter** built with **React.js**.  
+Easily convert between different global currencies with up-to-date exchange rates.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [react-currency-converter](https://react-currency-converter-k1m4.onrender.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔄 Convert any currency to another in real time
+- 🌍 Supports all major global currencies
+- 📉 Fetches live exchange rates from a public API
+- 🔍 User-friendly and responsive UI
+- ⚛️ Built entirely with React functional components
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – Frontend framework  
+- **HTML5 + CSS3** – Markup and styling  
+- **JavaScript (ES6)** – Logic & interactivity  
+- **Exchange Rate API** – For live conversion rates (e.g., [exchangerate.host](https://exchangerate.host) or [Frankfurter API](https://www.frankfurter.app/))
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/react-currency-converter.git
+cd react-currency-converter
+npm install
+npm start
+```
+📂 Folder Structure
+react-currency-converter/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── Converter.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+
+
+🔧 API Integration
+Uses a free currency exchange API to fetch live rates
+
+Handles user inputs dynamically
+
+Updates converted values in real-time
+
+You can replace the API source by updating the fetch URL in Converter.js.
+
+✨ Screenshots
+
+![](https://github.com/user-attachments/assets/b76e1e2a-fc57-4afd-bd44-3402636f0a84)
+
+
+📬 Contact
+Created by Shakeb Shamsi
+📧 Email: info.shakeb@gmail.com
+🌐 [LinkedIn](https://www.linkedin.com/in/shakebshamsi/)
+
