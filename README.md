@@ -37,6 +37,7 @@ npm install
 npm start
 ```
 📂 Folder Structure
+```
 react-currency-converter/
 ├── public/
 │   └── index.html
@@ -46,7 +47,7 @@ react-currency-converter/
 │   ├── App.js
 │   ├── App.css
 │   └── index.js
-
+```
 
 🔧 API Integration
 Uses a free currency exchange API to fetch live rates
